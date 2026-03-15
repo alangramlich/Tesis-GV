@@ -1,0 +1,32 @@
+# Sistema y temporales
+.DS_Store
+Thumbs.db
+Desktop.ini
+__MACOSX/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Entornos y configuracion local
+.env
+.env.*
+
+# Archivos pesados o descargados
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# Datos crudos de EEG
+/PlosONE_Data/
+/siena-scalp-eeg-database-1.0.0/
+*.edf
+
+# Documentos binarios auxiliares
+*.docx
