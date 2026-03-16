@@ -14,6 +14,16 @@ Este repositorio esta organizado para que sea facil ubicar que hace cada grupo d
 - Entrenamiento y visualizacion:
   - [`entrenamiento de modelos`](./entrenamiento%20de%20modelos-20260315T153853Z-1-001/entrenamiento%20de%20modelos)
 
+## Requisitos
+
+Antes de correr los scripts, instalar las dependencias de Python desde la raiz del repositorio:
+
+```bash
+pip install -r requirements.txt
+```
+
+Si se usa un entorno virtual, activarlo antes de correr ese comando.
+
 ## Orden de ejecucion
 
 ### Paso 1. Preprocesamiento inicial
@@ -50,6 +60,12 @@ En la carpeta `entrenamiento de modelos`:
 2. Opcionalmente, correr `dashboard_resultados.py`
 
 `Entrenamiento_definitivo_V2.py` genera resultados y graficos dentro de la carpeta `Resultados`.
+
+Para correr el dashboard con las dependencias instaladas desde `requirements.txt`:
+
+```bash
+streamlit run "entrenamiento de modelos-20260315T153853Z-1-001/entrenamiento de modelos/dashboard_resultados.py"
+```
 
 ## Que hace cada script
 
@@ -106,3 +122,9 @@ En la carpeta `entrenamiento de modelos`:
 - Los resultados de entrenamiento se guardan en `entrenamiento de modelos/Resultados`
 - Los scripts de variantes generan nuevos archivos Excel en sus carpetas correspondientes
 - `dashboard_resultados.py` se usa despues del entrenamiento para explorar esos resultados
+
+## Licencia
+
+El codigo de este repositorio se distribuye bajo la licencia MIT. Ver [LICENSE](./LICENSE).
+
+Los datasets, archivos de datos y derivados pueden estar sujetos a sus propias licencias, terminos de uso o restricciones de distribucion. Revisar la documentacion y condiciones de cada fuente antes de reutilizarlos o redistribuirlos.

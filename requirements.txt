@@ -1,0 +1,14 @@
+biosppy
+imbalanced-learn
+matplotlib
+neurokit2
+nolds
+numpy
+openpyxl
+pandas
+pyEDFlib
+pyhrv
+scikit-learn
+scipy
+seaborn
+streamlit
